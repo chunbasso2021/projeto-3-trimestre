@@ -1,22 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="formulário.css">
-    <title>Aula de formulário</title>
-    
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="formulário.css">
+<title>www.formulário.com.br</title>    
 </head>
 <body>
-    <h1>Meu primeiro formulário</h1>
+<h1>Meu primeiro formulário</h1>
 <form>
-<p>Nome:<input type="text" id="Nome:"></p>
-<p>sobenome:<input type="text"id="Sobrenome:"></p>
-<p>e-mail:<input type="email"id="e-mail:"></p>
-<p>data de nascimento:<input type="date"id="data de nascimento:"></p>
-<p>enviar<input type="submit" id="enviar"></p>
+<label for="nome">Nome</label>
+<input type="text" id="sobrenome" class="input padrao">
+
+
+
+<label for="email">e-mail</label>
+<input type="text" id="email" class="input padrao">
+
+
+<label for="telefone">telefone</label>
+<input type="text" id="telefone" class="input padrao">
+
+<label for="mensagem">mensagem</label>
+<textarea cols="90" rows="10" id="mensagem" class="input padrao"></textarea>
+<div>
+<P>como prefere nosso contato</P>
+<label for="radio-email">
+    <input type="radio" name="contato" value="email" id="radio-email"><img src="download.jpeg"></input>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
 </form>
+
 
 
 
